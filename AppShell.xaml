@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="MoreMenu_ShellBug.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:MoreMenu_ShellBug"
+    Shell.FlyoutBehavior="Disabled">
+
+    <TabBar>
+        <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" />
+        <ShellContent
+        Title="SubPage1"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="SubPage1" />
+        <ShellContent
+        Title="SubPage2"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="SubPage2" />
+        <ShellContent
+        Title="SubPage3"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="SubPage3" />
+        <ShellContent
+        Title="SubPage4"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="SubPage4" />
+        <ShellContent
+        Title="SubPage5"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="SubPage5" />
+        <ShellContent
+        Title="SubPage6"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="SubPage6" />
+
+    </TabBar>
+
+
+</Shell>
